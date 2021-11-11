@@ -1,0 +1,35 @@
+.project_main{
+    align-items: center;
+    margin: 10px auto;    
+}
+
+.project_list{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.card{
+    text-align: center;
+    margin: 10px auto;
+    background:  #ebf5fb ;
+    max-height: 600px;
+    min-height: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.project_heading{
+    text-align: center;
+    margin: 30px auto;
+
+}
+section {
+    margin: 0 35px;
+    text-align: center;
+  }
+
+@media screen and (max-width:480px) {
+    .project_main{
+        margin: 10 auto;
+        width: 100%;
+    }
+}

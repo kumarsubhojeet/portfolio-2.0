@@ -1,0 +1,165 @@
+.intro_main{
+    display:flex;
+    height: 100vh;
+  
+}
+
+.intro_left{
+    flex:1;
+    display: flex;
+    align-items:center;
+}
+
+.intro_right{
+    flex:1;
+    position: relative;
+}
+
+.intro_left_wrapper{
+    padding: 50px;
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.intro_hello{
+    font-size:30px;
+    font-weight:300;
+}
+.intro_name{
+    font-size:60px;
+    font-weight:600;
+    margin: 6px 0;
+}
+
+.intro_titles{
+    height: 50px;
+    overflow: hidden;
+}
+
+.intro_titles_wrapper{
+    height: 100%;   
+    animation: move 10s ease-in-out infinite alternate; 
+}
+
+@keyframes move {
+    30%{
+        transform: translateY(-50px);
+    }
+    60%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(-150px);
+    }
+    
+}
+
+.title-items{
+    height: 50px;
+    font-size:22px;
+    color:  #5b2c6f  ;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.intro_description{
+    font-size:20px;
+    width: 70%;
+}
+
+.intro_img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    padding-left:35px
+}
+
+.intro-r-bg{
+    clip-path: polygon(100% 0%, 100% 53%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    width: 100%;
+    height: 100%;
+    background: #5b2c6f ;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.resume_main{
+    margin: 10px 0;
+}
+
+.resume h4{
+    background: #5b2c6f;
+    color: #fff;
+    font-size:27px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 18px 18px 18px 18px;
+    width: 50%;
+    text-align: center;
+}
+.pdfimg{
+    height:35px;
+    width: 35px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .intro_description{
+        font-size:20px;
+        width: 100%;
+        
+    }
+    .intro_main{
+        width: 100%;
+    }
+    .resume h4{
+        background: #5b2c6f;
+        color: #fff;
+        font-size:27px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 18px 18px 18px 18px;
+        width: 100%;
+        margin: 10 auto;
+    }
+    .intro_img{
+        width: 90%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        padding-left:10px
+    }
+    .intro_main{
+        flex-direction: column;
+    }
+    .intro_left_wrapper {
+  
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+      }
+    
+      .intro_description{
+        display: none;
+      }
+      .intro_right{
+        flex:1;
+        width: 100%;
+        position: relative;
+    }
+    .intro_img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        padding-left:35px;
+    }
+    
+  }
