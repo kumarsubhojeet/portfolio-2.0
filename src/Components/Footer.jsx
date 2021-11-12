@@ -26,7 +26,7 @@ export default function Footer() {
         
          <BackTop>
             <div style={style} className='top'>
-              <p>top</p>
+          
               <i class="fas fa-level-up-alt"></i> 
             </div>
           </BackTop>

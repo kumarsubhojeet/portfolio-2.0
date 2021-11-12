@@ -10,13 +10,7 @@
 .f_desc{
     font-size:20px;
 }
-.top{
-    float: right;
-    margin-bottom: 20px;
-    margin-right: 90px;
-    display: flex;
-    cursor: pointer;
-}
+
 
 @media screen and (max-width:480px) {
     .f_heading h1{

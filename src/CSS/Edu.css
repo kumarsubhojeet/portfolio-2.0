@@ -1,5 +1,5 @@
 .Edu_main{
-    height:100vh;
+    height:auto;
     display: flex;
     align-items: center;
     margin: 10px auto;
@@ -36,7 +36,12 @@
     color: gray;
 }
 .svm{
-    margin: 40px auto;
+    margin: 30px auto;
+    text-align: justify;
+    
+}
+.schools{
+    padding-left: 10px;
 }
 
 @media screen and (max-width:480px) {
@@ -47,17 +52,21 @@
         height: auto;
         width: 100%;
     }
+    .schools{
+        padding-left: 0px;
+    }
     .timeline{
         margin: 0px auto;
-        text-align: center;
+        text-align: justify;
         width: 100%;
+        padding-left:6px
     
     }
     .svm{
         margin: 0px auto;
-        text-align: center;
-        width: 90%;
-       overflow: scroll;
+        text-align: left;
+        width: 100%;
+     
     }
     .edu_right{
         width: 100%;

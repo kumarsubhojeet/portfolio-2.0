@@ -75,7 +75,7 @@ export default function Contact() {
                             <form ref={formRef} onSubmit={handleSubmit}>
                                 <input required type="text" placeholder="Your Name" name="user_name" /><br />
                                 <input required type="text" placeholder="Subject" name="user_Subject" /><br />
-                                <input required type="email" placeholder="Enter Email" name="user_email" />
+                                <input required type="email" placeholder="Enter Email" name="user_email" /><br />
                                 <textarea required placeholder='Message' name="user_message" rows="5"></textarea>
                             
                             <br /><button> Submit </button>

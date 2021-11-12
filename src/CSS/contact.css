@@ -39,6 +39,7 @@
     margin: 50px 0px;
     font-weight: bold;
     width: 70%;
+    font-size: 15px;
   }
   
   .c_icon {
@@ -60,8 +61,8 @@
     height: 50px;
     border: none;
     border-bottom: 1px solid black;
-    margin: 10px 0px;
-    font-size: 19px;
+    margin: 10px 0px !important;
+    font-size: 17px !important;
     padding-left: 10px;
     text-align: justify;
   }
@@ -69,7 +70,8 @@
   textarea {
     width: 75%;
     margin: 10px 0px;
-    font-size: 20px;
+    font-size: 17px !important;
+    padding-top: 10px;
     padding-left: 10px;
     border-radius: 11px 11px;
   }
@@ -77,26 +79,17 @@
   button {
     border: none;
     padding: 15px;
+    margin: 10px 0px !important;
     background-color: #0a8f05;
-    color: white;
+    color: white !important;
     font-weight: 500;
     border-radius: 12px 12px 12px 12px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 19px !important;
     
   }  
-  button:hover {
-    border: none;
-    padding: 15px;
-    background-color: #1cd415;
-    color: white;
-    font-weight: 500;
-    font-weight: bold;
-    border-radius: 12px 12px 12px 12px;
-    cursor: pointer;
-    font-size: 19px;
-  }  
+
 .done{
   color: #0b7407;
   margin: 10px 0;

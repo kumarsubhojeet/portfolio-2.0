@@ -8,10 +8,12 @@ export default function Intro() {
   return (
     <div>
       <div className="intro_main">
+        
         <div className="intro_left">
+          
           <div className="intro_left_wrapper">
             <h2 className="intro_hello">Hello, My Name is</h2>
-            <h1 className="intro_name">Kumar Subhojit</h1>
+            <h1 className="intro_name animate__animated animate__zoomInUp">Kumar Subhojit</h1>
 
             <div className="intro_titles">
               <div className="intro_titles_wrapper">
@@ -38,7 +40,9 @@ export default function Intro() {
         </div>
 
         <div className="intro_right">
-          <div className="intro-r-bg"></div>
+          <div className="intro-r-bg">
+           
+          </div>
           <img src={sk} className="intro_img" alt="Error" />
         </div>
       </div>
